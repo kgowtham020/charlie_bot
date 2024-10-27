@@ -27,7 +27,7 @@ const chatbotPairs = [
   function simulateTyping(callback) {
     const typingIndicator = document.createElement("p");
     typingIndicator.className = "bot-message typing-indicator";
-    typingIndicator.textContent = "Bot is typing...";
+    typingIndicator.textContent = "Charlie is typing...";
     document.getElementById("chat-output").appendChild(typingIndicator);
     
     setTimeout(() => {
